@@ -1,18 +1,36 @@
-<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FDFCFB" />
-      <stop offset="100%" stop-color="#F1F5F9" />
-    </linearGradient>
-  </defs>
-  <rect width="800" height="600" rx="16" fill="url(#bg)" stroke="#E2E8F0" stroke-width="2" />
-  <rect width="800" height="60" fill="white" stroke="#E2E8F0" stroke-width="1" />
-  <text x="400" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#1E293B">Spendly Insights</text>
-  <rect x="40" y="90" width="370" height="240" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
-  <text x="225" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">📈 Spending Trends (Area Chart)</text>
-  <rect x="430" y="90" width="340" height="240" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
-  <text x="600" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">🍩 Expense Breakdown</text>
-  <rect x="40" y="350" width="370" height="230" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
-  <text x="225" y="465" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">🗓️ Spending Heatmap</text>
-  <rect x="430" y="350" width="340" height="230" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
-  <text x="600" y="465" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">💰 Income vs Expense</text>
+<svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" fill="#FDFCFB" />
+  <rect x="0" y="0" width="256" height="800" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="32" y="32" width="40" height="40" rx="12" fill="#10B981" />
+  <text x="84" y="58" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#0F172A">Spendly</text>
+  <text x="56" y="128" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Dashboard</text>
+  <rect x="16" y="148" width="224" height="44" rx="10" fill="#F0FDF4" />
+  <text x="56" y="176" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#10B981">Insights</text>
+  <text x="56" y="212" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Budget Plan</text>
+  <text x="304" y="56" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0F172A">Insights</text>
+  <!-- Area chart -->
+  <rect x="304" y="80" width="600" height="320" rx="16" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="324" y="112" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Spending Trends</text>
+  <polyline points="330,340 420,300 510,320 600,260 690,290 780,240 860,280" fill="none" stroke="#10B981" stroke-width="3" />
+  <polygon points="330,340 420,300 510,320 600,260 690,290 780,240 860,280 860,370 330,370" fill="#10B981" fill-opacity="0.1" />
+  <!-- Heatmap -->
+  <rect x="920" y="80" width="340" height="320" rx="16" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="940" y="112" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Spending Heatmap</text>
+  <rect x="940" y="130" width="30" height="30" rx="4" fill="#DCFCE7" /><rect x="974" y="130" width="30" height="30" rx="4" fill="#BBF7D0" /><rect x="1008" y="130" width="30" height="30" rx="4" fill="#86EFAC" /><rect x="1042" y="130" width="30" height="30" rx="4" fill="#DCFCE7" /><rect x="1076" y="130" width="30" height="30" rx="4" fill="#4ADE80" /><rect x="1110" y="130" width="30" height="30" rx="4" fill="#BBF7D0" /><rect x="1144" y="130" width="30" height="30" rx="4" fill="#22C55E" /><rect x="1178" y="130" width="30" height="30" rx="4" fill="#86EFAC" />
+  <rect x="940" y="164" width="30" height="30" rx="4" fill="#BBF7D0" /><rect x="974" y="164" width="30" height="30" rx="4" fill="#4ADE80" /><rect x="1008" y="164" width="30" height="30" rx="4" fill="#DCFCE7" /><rect x="1042" y="164" width="30" height="30" rx="4" fill="#22C55E" /><rect x="1076" y="164" width="30" height="30" rx="4" fill="#86EFAC" /><rect x="1110" y="164" width="30" height="30" rx="4" fill="#4ADE80" /><rect x="1144" y="164" width="30" height="30" rx="4" fill="#DCFCE7" /><rect x="1178" y="164" width="30" height="30" rx="4" fill="#BBF7D0" />
+  <rect x="940" y="198" width="30" height="30" rx="4" fill="#86EFAC" /><rect x="974" y="198" width="30" height="30" rx="4" fill="#DCFCE7" /><rect x="1008" y="198" width="30" height="30" rx="4" fill="#22C55E" /><rect x="1042" y="198" width="30" height="30" rx="4" fill="#BBF7D0" /><rect x="1076" y="198" width="30" height="30" rx="4" fill="#4ADE80" /><rect x="1110" y="198" width="30" height="30" rx="4" fill="#86EFAC" /><rect x="1144" y="198" width="30" height="30" rx="4" fill="#22C55E" /><rect x="1178" y="198" width="30" height="30" rx="4" fill="#4ADE80" />
+  <!-- Insight cards -->
+  <rect x="304" y="420" width="440" height="180" rx="16" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="324" y="452" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Income vs Expenses</text>
+  <rect x="340" y="480" width="180" height="80" rx="8" fill="#F0FDF4" />
+  <text x="360" y="510" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">Income</text>
+  <text x="360" y="540" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#10B981">₹85,000</text>
+  <rect x="540" y="480" width="180" height="80" rx="8" fill="#FEF2F2" />
+  <text x="560" y="510" font-family="system-ui, sans-serif" font-size="12" fill="#EF4444">Expenses</text>
+  <text x="560" y="540" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#EF4444">₹39,800</text>
+  <rect x="760" y="420" width="480" height="180" rx="16" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="780" y="452" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Smart Insights</text>
+  <text x="780" y="490" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">You saved 35% more than last month!</text>
+  <text x="780" y="520" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Food & Dining is your top expense</text>
+  <text x="780" y="550" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Average daily spend: ₹1,327</text>
+</svg>

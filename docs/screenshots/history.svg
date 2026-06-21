@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" fill="#FDFCFB" />
+  <rect x="0" y="0" width="256" height="800" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="32" y="32" width="40" height="40" rx="12" fill="#10B981" />
+  <text x="84" y="58" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#0F172A">Spendly</text>
+  <text x="304" y="56" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0F172A">History</text>
+  <!-- Search bar -->
+  <rect x="304" y="80" width="500" height="44" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="340" y="108" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8">Search transactions...</text>
+  <!-- Filter chips -->
+  <rect x="820" y="80" width="80" height="44" rx="12" fill="#F0FDF4" stroke="#10B981" stroke-width="1" />
+  <text x="840" y="108" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#10B981">All</text>
+  <rect x="910" y="80" width="80" height="44" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="928" y="108" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Income</text>
+  <rect x="1000" y="80" width="80" height="44" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="1014" y="108" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Expense</text>
+  <rect x="1090" y="80" width="80" height="44" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <text x="1102" y="108" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Filter</text>
+  <!-- Date group -->
+  <text x="304" y="156" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94A3B8">Today — June 21, 2026</text>
+  <!-- Transaction rows -->
+  <rect x="304" y="170" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="182" width="36" height="36" rx="10" fill="#FEF3C7" />
+  <text x="328" y="206" font-family="system-ui, sans-serif" font-size="18">☕</text>
+  <text x="366" y="202" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Morning Chai</text>
+  <text x="366" y="218" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Food & Dining · Cash</text>
+  <text x="1120" y="206" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#EF4444">-₹30</text>
+
+  <rect x="304" y="236" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="248" width="36" height="36" rx="10" fill="#FEF3C7" />
+  <text x="328" y="272" font-family="system-ui, sans-serif" font-size="18">🛒</text>
+  <text x="366" y="268" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Groceries</text>
+  <text x="366" y="284" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Food & Dining · UPI</text>
+  <text x="1120" y="272" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#EF4444">-₹1,200</text>
+
+  <rect x="304" y="302" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="314" width="36" height="36" rx="10" fill="#DBEAFE" />
+  <text x="328" y="338" font-family="system-ui, sans-serif" font-size="18">🚗</text>
+  <text x="366" y="334" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Petrol</text>
+  <text x="366" y="350" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Transport · Cash</text>
+  <text x="1120" y="338" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#EF4444">-₹2,000</text>
+
+  <text x="304" y="400" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94A3B8">Yesterday — June 20, 2026</text>
+
+  <rect x="304" y="414" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="426" width="36" height="36" rx="10" fill="#DCFCE7" />
+  <text x="328" y="450" font-family="system-ui, sans-serif" font-size="18">💼</text>
+  <text x="366" y="446" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Monthly Salary</text>
+  <text x="366" y="462" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Income · Bank Transfer</text>
+  <text x="1120" y="450" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#10B981">+₹85,000</text>
+
+  <rect x="304" y="480" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="492" width="36" height="36" rx="10" fill="#FEE2E2" />
+  <text x="328" y="516" font-family="system-ui, sans-serif" font-size="18">🍕</text>
+  <text x="366" y="512" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Swiggy Order</text>
+  <text x="366" y="528" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Food & Dining · UPI</text>
+  <text x="1120" y="516" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#EF4444">-₹450</text>
+
+  <rect x="304" y="546" width="936" height="56" rx="12" fill="white" stroke="#E2E8F0" stroke-width="1" />
+  <rect x="320" y="558" width="36" height="36" rx="10" fill="#F3E8FF" />
+  <text x="328" y="582" font-family="system-ui, sans-serif" font-size="18">📱</text>
+  <text x="366" y="578" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Phone Recharge</text>
+  <text x="366" y="594" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Utilities · UPI</text>
+  <text x="1120" y="582" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#EF4444">-₹399</text>
+</svg>
