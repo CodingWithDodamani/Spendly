@@ -1,0 +1,23 @@
+{
+  "name": "Spendly — Track Daily, Spend Happily",
+  "short_name": "Spendly",
+  "description": "Beautiful, privacy-first daily expense tracker for India. Track every rupee with zero sign-ups, zero servers, 100% localStorage.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#10B981",
+  "background_color": "#FDFCFB",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}
