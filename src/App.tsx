@@ -15,7 +15,6 @@ import {
   validateRecurringList,
   validateGoalList,
   validateLimit,
-  validateCategoryList,
 } from './utils/validation';
 
 // Components
@@ -136,12 +135,6 @@ export default function App() {
     'spendly_limit',
     { enabled: false, period: 'daily', amount: 0 },
     validateLimit,
-  );
-
-  const [customCategories, setCustomCategories] = useLocalStorage<string[]>(
-    'spendly_categories',
-    [],
-    validateCategoryList,
   );
 
   // ── Edit Transaction State ─────────────────────────
@@ -550,7 +543,6 @@ export default function App() {
               }}
               onAdd={handleAddTransaction}
               editTransaction={editingTransaction}
-              categories={customCategories}
             />
           )}
         </div>
